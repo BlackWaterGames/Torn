@@ -6,10 +6,25 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_fog</sprite>
+    <sprite>sprites\spr_bwg</sprite>
+    <sprite>sprites\spr_whiteForeground</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_bwg</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="Intro Objects">
+      <object>objects\obj_bwg</object>
+      <object>objects\obj_whiteFG</object>
+    </objects>
+  </objects>
+  <timelines name="timelines"/>
+  <rooms name="rooms">
+    <room>rooms\rm_splashscreen</room>
+    <room>rooms\rm_startMenu</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

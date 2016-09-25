@@ -20,6 +20,6 @@
   <width>610</width>
   <height>343</height>
   <frames>
-    <frame index="0">images\sprite0_0.png</frame>
+    <frame index="0">images\spr_fog_0.png</frame>
   </frames>
 </sprite>
