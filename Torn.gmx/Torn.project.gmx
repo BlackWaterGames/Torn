@@ -9,9 +9,12 @@
     <sprite>sprites\spr_fog</sprite>
     <sprite>sprites\spr_bwg</sprite>
     <sprite>sprites\spr_whiteForeground</sprite>
+    <sprite>sprites\spr_tornyellow</sprite>
+    <sprite>sprites\spr_tornwhite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_bwg</background>
+    <background>background\bg_menuBack</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -19,8 +22,10 @@
       <object>objects\obj_bwg</object>
       <object>objects\obj_whiteFG</object>
     </objects>
+    <objects name="Menu Objects">
+      <object>objects\obj_torn</object>
+    </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_splashscreen</room>
     <room>rooms\rm_startMenu</room>
