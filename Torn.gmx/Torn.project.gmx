@@ -23,6 +23,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_text.gml</script>
+    <script>scripts\scr_continueClick.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
@@ -45,6 +46,7 @@
     <room>rooms\rm_splashscreen</room>
     <room>rooms\rm_startMenu</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_four</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

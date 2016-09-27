@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_whiteForeground</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>-101</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -26,8 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>///Init
+visible = true
 start = false
 endx = false
+
 </string>
           </argument>
         </arguments>
@@ -165,8 +167,9 @@ if (endx)
 
 }
 }
-else if (room == rm_startMenu or room == rm_test)
+else if (room == rm_startMenu or room == rm_test or room == rm_four)
 {
+    if (room == rm_test) scr_continueClick(rm_four)
     if (image_alpha &gt; 0)
     {
         image_alpha -= 0.1
