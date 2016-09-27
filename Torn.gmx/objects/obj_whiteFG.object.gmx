@@ -169,6 +169,7 @@ if (endx)
 }
 else if (room == rm_startMenu or room == rm_test or room == rm_four)
 {
+    
     if (room == rm_test) scr_continueClick(rm_four)
     if (image_alpha &gt; 0)
     {

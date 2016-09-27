@@ -9,12 +9,16 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_fog</sprite>
-    <sprite>sprites\spr_bwg</sprite>
     <sprite>sprites\spr_whiteForeground</sprite>
-    <sprite>sprites\spr_tornyellow</sprite>
+    <sprites name="Intro Sprites">
+      <sprite>sprites\spr_bwg</sprite>
+    </sprites>
     <sprite>sprites\spr_tornwhite</sprite>
-    <sprite>sprites\spr_exit</sprite>
-    <sprite>sprites\spr_exit2</sprite>
+    <sprites name="Menu Sprites">
+      <sprite>sprites\spr_exit2</sprite>
+      <sprite>sprites\spr_exit</sprite>
+      <sprite>sprites\spr_tornyellow</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_bwg</background>
@@ -36,6 +40,7 @@
     <objects name="Menu Objects">
       <object>objects\obj_torn</object>
       <object>objects\obj_exit</object>
+      <object>objects\obj_fog</object>
     </objects>
     <objects name="Misc. Objects">
       <object>objects\obj_text</object>
